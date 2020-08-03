@@ -1,0 +1,158 @@
+
+/*Strike A Spark Web Application
+
+Group Members with emails:
+Michael Gorse- gor9632@calu.edu
+Anthony Carrola- car3766@calu.edu
+Paul MacLean- mac7537@calu.edu
+Brittany Marietta- mar0274@calu.edu
+Ryan Merow- mer3942@calu.edu
+Zachary Smith- smi2479@calu.edu
+*/
+
+body {
+	background: orange;
+}
+p {
+	font-size: 30px;
+	text-align: center;
+	font-family: Anton;
+	color: white;
+}
+div.ptitle {
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 3px;
+	padding: 3px;
+	font-size: 25px;
+	flex-direction: column;
+	text-align: center;
+	border-width: 5px;
+	color: white;
+	font-family: "Anton";
+	white-space: normal;
+
+
+}
+div.pinput {
+		background-color: DarkGray;
+		margin-left: 10%;
+		margin-right: 10%;
+		border-radius: 7px;
+		padding: 7px;
+		color: white;
+		font-size: 30px;
+		flex-direction: column;
+		text-align: center;
+		border-width: 10px;
+		white-space: normal;
+  	overflow: hidden;
+
+}
+div.title {
+  	background-color: black;
+  	margin-left: 10%;
+  	margin-right: 10%;
+  	border-radius: 3px;
+  	height: 40px;
+  	padding: 3px;
+  	font-size: 30px;
+  	flex-direction: column;
+  	text-align: center;
+ 	border-width: 5px;
+	color: white;
+	font-family: arial;
+	white-space: normal;
+
+
+}
+div.textboxtitle {
+  	background-color: black;
+  	margin-left: 10%;
+  	margin-right: 10%;
+  	border-radius: 3px;
+  	height: 70px;
+  	padding: 3px;
+  	font-size: 20px;
+  	flex-direction: column;
+  	text-align: center;
+ 	border-width: 5px;
+	color: white;
+	font-family: arial;
+	white-space: normal;
+  	overflow: hidden;
+
+}
+h1.header {
+	font-style: normal;
+	font-size: 68px;
+	font-family: Anton;
+  color: white;
+}
+div.subhead {
+	font-style: normal;
+	font-size: 30px;
+	font-family: Anton;
+  color: white;
+}
+div.category {
+	background-color: silver;
+	margin-left: 10%;
+  	margin-right: 10%;
+  	border-radius: 3px;
+  	text-align: left;
+ 	padding: 5px;
+  	font-size: 30px;
+  	flex-direction: column;
+  	font-family: arial;
+  	overflow: hidden;
+}
+div.textbox {
+	background-color: silver;
+	margin-left: 10%;
+  	margin-right: 10%;
+  	border-radius: 3px;
+  	text-align: center;
+ 		padding: 5px;
+  	font-size: 20px;
+  	flex-direction: column;
+  	font-family: arial;
+  	overflow: hidden;
+}
+h1.thinredborder {
+	border-color: #C10020;
+	border-width: 8px;
+	border-style: solid;
+	border-radius: 10%;
+}
+div.container {
+	height: 250px;
+	width: 400px;
+	position: relative;
+	background-color: LightGray;
+}
+
+div.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.logo {
+	width: 120px;
+	border-width: 10px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 50%;
+}
+table {
+  width:80%
+} td {
+  padding:5px;
+}
+select.dropdown {
+	width: 250px;
+}

@@ -1,0 +1,86 @@
+<!-- Strike A Spark Web Application
+
+Group Members with emails:
+Michael Gorse- gor9632@calu.edu
+Anthony Carrola- car3766@calu.edu
+Paul MacLean- mac7537@calu.edu
+Brittany Marietta- mar0274@calu.edu
+Ryan Merow- mer3942@calu.edu
+Zachary Smith- smi2479@calu.edu
+
+-->
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link rel="icon" href="https://i.imgur.com/XciPCw8.png">
+
+<meta name="viewport" content="width=device-width, initial-scale=0.9">
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	</head>
+
+	<body>
+		<center>
+			<h1 class="thinredborder header">Strike a Spark Conference Judging App</h1>
+			<img class="logo"src="https://pbs.twimg.com/profile_images/979358006663139328/0ShklWot_400x400.jpg" alt="Strike a spark">
+			<br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <form action ="./includes/signin.php" method="POST" onsubmit="return CheckLogin();">
+        <div class="ptitle">
+          <div>
+              Please enter your judging alias:
+          </div>
+        </div>
+        <div class="pinput">
+          <input name="alias-input" placeholder="A3, C1, etc." type="text" size="30" required>
+        </div>
+        <br>
+        <div class="ptitle">
+				      Please enter your unique ID:
+        </div>
+        <div class="pinput">
+				<input name="judge-id-input" placeholder="Judge ID" type="text" size="30" required>
+        </div>
+				<br>
+        <div class="ptitle">
+				      Please enter your password:
+        </div>
+        <div class="pinput">
+  				<input type="password" name="password-input" placeholder="Password" type="text" size="30" required>
+        </div>
+  				<br>
+  				<button type = "submit"  name = "submit">Login</button>
+			</form>
+		</center>
+	</body>
+</html>
+
+<script>
+	function CheckLogin()	{
+		var check = false;
+    var alias =document.getElementByName("alias-input").value;
+	  var id =document.getElementByName("judge-id-input").value;
+	  var password =document.getElementByName("password-input").value;
+
+    var issues = ""
+
+    if(id == "")
+      response = response + "\n * Judge alias";
+		if(id == "")
+      response = response + "\n * Judge ID";
+		if(password == "")
+      response = response + "\n * Password";
+
+    if (issues == "") {
+      check = false;
+      alert("You are missing the following credentials: " + issues);
+    }
+
+		return check;
+	}
+</script>
